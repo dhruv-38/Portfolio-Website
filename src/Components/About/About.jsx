@@ -3,6 +3,7 @@ import './About.css'
 import profile_photo from "../../assets/profile_photo.jpg"
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
+import twitter from '../../assets/twitter.svg'
 
 const About = () => {
   return (
@@ -19,10 +20,15 @@ const About = () => {
           <button className='contact_info'>Contact Info</button>
         </div>
         <div className="social_container">
-          <a href="https://iitgn.ac.in" target="_blank" rel="opener" >
+          <a href="https://www.linkedin.com/in/dhruvchoudhary38/" target="_blank" rel="opener" >
             <img src={linkedin} alt="LinkedIn Profile" />
           </a>
-          <img src={github} alt="" />
+          <a href="https://github.com/dhruv-38" target="_blank" rel="opener" >
+            <img src={github} alt="Github Profile" />
+          </a>
+          <a href="https://x.com/dhruv_38_" target="_blank" rel="opener" >
+            <img src={twitter} alt="Twitter Profile" />
+          </a>
         </div>
       </div>
     </div>
